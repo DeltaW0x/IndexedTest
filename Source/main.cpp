@@ -3,7 +3,10 @@
 
 int main() {
     Context ctx;
-    ctx.Setup(1280, 720, "Indexed");
+    if(ctx.Setup(1280, 720, "Indexed") != 0){
+        printf("Failed to setup context \n");
+        return -1;
+    }
 
     while (!ctx.IsQuiting()) {
         ctx.Update();
