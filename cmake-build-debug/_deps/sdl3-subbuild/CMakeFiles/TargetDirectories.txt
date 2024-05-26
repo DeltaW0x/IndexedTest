@@ -1,3 +1,0 @@
-C:/Users/lucac/CLionProjects/IndexedQuad/IndexedTest/cmake-build-debug/_deps/sdl3-subbuild/CMakeFiles/sdl3-populate.dir
-C:/Users/lucac/CLionProjects/IndexedQuad/IndexedTest/cmake-build-debug/_deps/sdl3-subbuild/CMakeFiles/edit_cache.dir
-C:/Users/lucac/CLionProjects/IndexedQuad/IndexedTest/cmake-build-debug/_deps/sdl3-subbuild/CMakeFiles/rebuild_cache.dir

@@ -226,7 +226,6 @@ void Context::Update() {
     while (SDL_PollEvent(&e)) {
         switch (e.type) {
             case SDL_EVENT_WINDOW_CLOSE_REQUESTED:
-                CleanUp();
                 m_bQuit = true;
                 break;
         }

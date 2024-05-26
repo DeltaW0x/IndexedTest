@@ -9,5 +9,6 @@ int main() {
         ctx.Update();
         ctx.Draw();
     }
+    ctx.CleanUp();
     return 0;
 }

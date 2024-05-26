@@ -1,8 +1,0 @@
-C:/Users/lucac/CLionProjects/IndexedQuad/IndexedTest/cmake-build-debug/CMakeFiles/IndexedQuad.dir
-C:/Users/lucac/CLionProjects/IndexedQuad/IndexedTest/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/lucac/CLionProjects/IndexedQuad/IndexedTest/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-C:/Users/lucac/CLionProjects/IndexedQuad/IndexedTest/cmake-build-debug/_deps/sdl3-build/CMakeFiles/SDL3-shared.dir
-C:/Users/lucac/CLionProjects/IndexedQuad/IndexedTest/cmake-build-debug/_deps/sdl3-build/CMakeFiles/SDL3_test.dir
-C:/Users/lucac/CLionProjects/IndexedQuad/IndexedTest/cmake-build-debug/_deps/sdl3-build/CMakeFiles/uninstall.dir
-C:/Users/lucac/CLionProjects/IndexedQuad/IndexedTest/cmake-build-debug/_deps/sdl3-build/CMakeFiles/edit_cache.dir
-C:/Users/lucac/CLionProjects/IndexedQuad/IndexedTest/cmake-build-debug/_deps/sdl3-build/CMakeFiles/rebuild_cache.dir
