@@ -11,14 +11,20 @@
 #include "triangle_spirv.h"
 
 Context::Context() {
-
+    if (SDL_Init(SDL_INIT_VIDEO) < 0) {
+        SDL_Log("Failed to initialize SDL: %s", SDL_GetError());
+        m_bQuit = true;
+    }
 }
 
 int Context::Setup(int with,int height,const char* title) {
 
     m_pGpuDevice= SDL_GpuCreateDevice(SDL_GPU_BACKEND_ALL,SDL_TRUE);
+    EX_ASSERT(m_pGpuDevice != NULL, "Failed to created Device")
     m_pWindow = SDL_CreateWindow(title,with,height,0);
+    EX_ASSERT(m_pWindow != NULL, "Failed to create window")
     SDL_GpuClaimWindow(m_pGpuDevice,m_pWindow,SDL_GPU_COLORSPACE_NONLINEAR_SRGB,SDL_GPU_PRESENTMODE_VSYNC);
+    EX_ASSERT(m_pWindow != NULL, "Failed to claim window")
 
     SDL_GpuShaderCreateInfo vertexShader;
     SDL_GpuShaderCreateInfo fragmentShader;
@@ -221,7 +227,6 @@ void Context::Update() {
         switch (e.type) {
             case SDL_EVENT_WINDOW_CLOSE_REQUESTED:
                 CleanUp();
-                SDL_Quit();
                 m_bQuit = true;
                 break;
         }
@@ -229,6 +234,8 @@ void Context::Update() {
 }
 
 void Context::CleanUp() {
+    SDL_GpuWait(m_pGpuDevice);
+
     SDL_GpuQueueDestroyGraphicsPipeline(m_pGpuDevice, m_pPipeline);
     SDL_GpuQueueDestroyShader(m_pGpuDevice, m_pVertexShader);
     SDL_GpuQueueDestroyShader(m_pGpuDevice, m_pFragmentShader);

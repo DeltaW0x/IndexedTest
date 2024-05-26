@@ -1,0 +1,21 @@
+# ninja log v5
+1	41	7383910640125118	sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-mkdir	c22f7a0a6336f251
+1	41	7383910640125118	C:/Users/lucac/CLionProjects/IndexedQuad/IndexedTest/cmake-build-debug/_deps/sdl3-subbuild/sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-mkdir	c22f7a0a6336f251
+42	13089	7383910770585207	sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-download	d87b9a068ba03bc0
+42	13089	7383910770585207	C:/Users/lucac/CLionProjects/IndexedQuad/IndexedTest/cmake-build-debug/_deps/sdl3-subbuild/sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-download	d87b9a068ba03bc0
+13090	14502	0	sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-update	94b3d114c6685fa4
+13090	14502	0	C:/Users/lucac/CLionProjects/IndexedQuad/IndexedTest/cmake-build-debug/_deps/sdl3-subbuild/sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-update	94b3d114c6685fa4
+14502	14539	7383910785102420	sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-patch	bb7696a3827786ec
+14502	14539	7383910785102420	C:/Users/lucac/CLionProjects/IndexedQuad/IndexedTest/cmake-build-debug/_deps/sdl3-subbuild/sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-patch	bb7696a3827786ec
+14540	14577	7383910785477870	sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-configure	cac12918b4b3b622
+14540	14577	7383910785477870	C:/Users/lucac/CLionProjects/IndexedQuad/IndexedTest/cmake-build-debug/_deps/sdl3-subbuild/sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-configure	cac12918b4b3b622
+14577	14614	7383910785850446	sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-build	e5968ed7b4f88cf8
+14577	14614	7383910785850446	C:/Users/lucac/CLionProjects/IndexedQuad/IndexedTest/cmake-build-debug/_deps/sdl3-subbuild/sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-build	e5968ed7b4f88cf8
+14614	14651	7383910786219471	sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-install	b8151beaf86adb8f
+14614	14651	7383910786219471	C:/Users/lucac/CLionProjects/IndexedQuad/IndexedTest/cmake-build-debug/_deps/sdl3-subbuild/sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-install	b8151beaf86adb8f
+14651	14688	7383910786596401	sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-test	39f3de7fcad8b715
+14651	14688	7383910786596401	C:/Users/lucac/CLionProjects/IndexedQuad/IndexedTest/cmake-build-debug/_deps/sdl3-subbuild/sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-test	39f3de7fcad8b715
+14688	14742	7383910787129516	CMakeFiles/sdl3-populate-complete	903fa5676311770a
+14688	14742	7383910787129516	sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-done	903fa5676311770a
+14688	14742	7383910787129516	C:/Users/lucac/CLionProjects/IndexedQuad/IndexedTest/cmake-build-debug/_deps/sdl3-subbuild/CMakeFiles/sdl3-populate-complete	903fa5676311770a
+14688	14742	7383910787129516	C:/Users/lucac/CLionProjects/IndexedQuad/IndexedTest/cmake-build-debug/_deps/sdl3-subbuild/sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-done	903fa5676311770a
